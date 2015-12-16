@@ -181,9 +181,9 @@ height: auto;
 
 }
 #myCarousel{
-width:95%;
+  width:95%;
   height:30%;
-border: 3px solid black;
+  border: 2px solid black;
   color:azure;
 }
 .mid-sec{
