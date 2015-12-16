@@ -3,15 +3,16 @@
 }
 html{
 background-color: black;
-  
-
 }
-body{
+#bigpiece{
   width:80%;
   border: 5px solid silver;
   padding: 5px;
   margin: auto;
   background: linear-gradient(to right, #FF4F45,#00FF00, blue); 
+}
+.back{
+  background: linear-gradient(to right, #FF4F45,#00FF00, blue);
 }
 header{
   background-image:url(../images/3d.jpg);
@@ -62,7 +63,7 @@ aside p{
   min-height: 100%;
   max-width: 100%;
 }
-article{
+.main article{
   width:70%;
   border:2px solid gray;
   padding:15px;
@@ -75,7 +76,7 @@ article{
   color: papayawhip;
  
 }
-article img{
+.main img{
   width: 12rem;
   padding: 10px;
   border: 3px solid silver;
@@ -168,11 +169,32 @@ display: block;
   }
 .top2 li:hover ul {
     display: block;
-  }
+  }*/
+article{
+width:100%;
+height: auto;
+}
+.setup{
+  float:right;
+  width:35%;
+  padding: 1rem;
 
-
-
-
+}
+#myCarousel{
+width:95%;
+  height:30%;
+border: 3px solid black;
+  color:azure;
+}
+.mid-sec{
+  width:60%;
+  padding: 2rem;  
+}
+.jumbotron{
+  text-align: center;
+background-image: url(/images/sale.jpg);
+background-position: center;
+}
 
 
     
