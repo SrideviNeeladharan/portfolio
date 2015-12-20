@@ -18,22 +18,23 @@ header{
   background-image:url(../images/3d.jpg);
   background-position: center;
   padding: 25px;
-  font-family: 'Molle', cursive;
+  font-family: 'Sans serif';
   font-size: 2rem;
-  color:papayawhip;
+  color:white;
   margin:auto;
 }
 header h1:first-letter{
   font-size: 4rem;
 }
 form{
- margin-top: 15px;  
+ margin-top: 15px; 
+  float: right;
 }
 p:first-letter{
   font-weight: bold;
 }
 aside p{
-  font-family: 'Princess Sofia', cursive;
+  font-family: 'Princess Sofia';
   font-size: 110%;
 }
 .top{
@@ -71,7 +72,7 @@ aside p{
   margin-left: auto;
   float:left;
   text-align: center;
-  font-family: 'Molle', cursive;
+  font-family:sans-serif;
   font-size: 1em;
   color: papayawhip;
  
@@ -94,82 +95,12 @@ aside{
   float: right;
   text-align: center;
 }
+
 footer{
   display:block;
   clear: both;
   border-top:2px solid silver;
 }
- .top li a:hover{
-   background-color: lightgrey;
-   font-size: 2em;
-}
-
-
-
-
- .tier1 ul, .sub1 ul, .sub2 ul {
-   list-style: none;
-   display: none;
-    
-  }
-
-ul.tier1  li{
-  /*border:2px solid red;*/
-  width: 130px;
-  text-align: center;
-  position: relative;
-  float: left;
-  margin-right: 5px;
-  list-style: none;
-}
-
-.tier1 a{
-  text-decoration: none;
-  display: block;
-  width: 125px;
-  height: 25px;
-  border: 2px solid blue;
-  border-radius: 2rem;
-  list-style: :none;
-  
-  /*transition: .3s background-color;*/
-}
-
-
-
-ul.tier1 .sub1 ul{
-  display: none;
-  position:absolute;
-  top:30px;
-  left:0px;
-}
-ul.tier1 ul.sub2 {
-  display: none;
-  position: absolute;
-  left:125px;
-  top: 0px;
-  
-}
-ul.tier1 li:hover .sub1 {
-  display: block;
-  background-color: #005f5f;
-}
-ul.tier1 .sub1 li:hover .sub2{
-display: block;
-}
-/*.top2 a.active {
-  background-color: #aaa;
-  color: #444;
-  cursor: default;
-}
-.top2 li ul {
-    position: absolute;
-    display: none;
-    width: inherit;
-  }
-.top2 li:hover ul {
-    display: block;
-  }*/
 article{
 width:100%;
 height: auto;
@@ -195,6 +126,75 @@ height: auto;
 background-image: url(/images/sale.jpg);
 background-position: center;
 }
+
+ /*.top li a:hover{
+   background-color: lightgrey;
+   font-size: 2em;
+}
+
+.tier1 ul, .sub1 ul, .sub2 ul {
+   list-style: none;
+   display: none;
+    
+  }
+
+ul.tier1  li{
+  border:2px solid red;
+  width: 130px;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin-right: 5px;
+  list-style: none;
+}
+
+.tier1 a{
+  text-decoration: none;
+  display: block;
+  width: 125px;
+  height: 25px;
+  border: 2px solid blue;
+  border-radius: 2rem;
+  list-style: none;
+  
+  transition: .3s background-color;
+}
+
+
+
+ul.tier1 .sub1 ul{
+  display: none;
+  position:absolute;
+  top:30px;
+  left:0px;
+}
+ul.tier1 ul.sub2 {
+  display: none;
+  position: absolute;
+  left:125px;
+  top: 0px;
+  
+}
+ul.tier1 li:hover .sub1 {
+  display: block;
+  background-color: #005f5f;
+}
+ul.tier1 .sub1 li:hover .sub2{
+display: block;
+}
+.top2 a.active {
+  background-color: #aaa;
+  color: #444;
+  cursor: default;
+}
+.top2 li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+.top2 li:hover ul {
+    display: block;
+  }*/
 
 
     
